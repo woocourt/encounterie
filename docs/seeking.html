@@ -1,0 +1,56 @@
+</font><center><b><font size="70">WOOCOURT</b></font>  
+<p>The sophisticatedly custom tailored Enconterie</p>
+<br>
+<br>
+<br>
+
+
+
+<p> <a href="seeking.html"><img src="images/Owl.png" alt="alternative text" title="Enter your unique identification code below to edit your desired preferences "  class="logo_main" alt="" width="400" height="150"></a></p>
+<br>
+<br>
+
+
+
+<br>
+<form class="hero-form">
+                    <fieldset>
+                    <div class="row-fluid">
+                        <center><label><b>Your Unique Identification Code</b></label>
+                        <input type="password" name="password" maxlength="20"      class="span7" id="password" placeholder="" required/>
+                        <button class="btn btn-info btn-large span5" id="joe_btn" input type="submit" value="Submit" onclick="if (document.getElementById('password').value == '12345678') location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScVMhf3x-X_IGisBI9u8t8Iwez3NUAc_cL-BHfeY5l2nAjRDQ/viewform'; else alert('Please check your passcode and try again'); return false;">Submit</button></center>
+
+
+
+                    </div>    
+                    </fieldset>
+                </form>
+
+<a href="male log in.html"><img src="images/male sign.png" alt="alternative text" title="Create Your Profile" class="logo_main" alt="" width="75" height="131"></a>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSesqKHN3nrzp21YYBG808UwqdSoT9vGBpLlbL1DGd--ewASWQ/viewform"><img src="images/female sign.png" alt="alternative text" title="Create Your Profile"  class="logo_main" alt="" width="75" height="131"></a>
+
+<p>
+<html>
+<body>
+
+<button onclick="typeWriter()">How To Get The Code</button>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = 'To get your unique identification code, you need to have a profile on WOOCOURT.COM. After your profile is authorized by one of our agents, you will be presented with your very own unique identification code which you can use to make changes to your seeking criteria. Chose your gender below to obtain an approval. ';
+var speed = 80;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+</body>
+</html>
